@@ -7,4 +7,8 @@
     "test": "node test.py",
     "start": "node test.py"
   }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ashish313/Test/edit/master/"
+  },
 }
