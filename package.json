@@ -1,0 +1,10 @@
+{
+  "name": "getintodevops-hellonode",
+  "version": "1.0.0",
+  "description": "Testing...",
+  "main": "test.py",
+  "scripts": {
+    "test": "node test.py",
+    "start": "node test.py"
+  }
+}
