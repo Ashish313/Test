@@ -4,7 +4,6 @@
   "description": "Testing...",
   "main": "test.py",
   "scripts": {
-    "test": "node test.py",
     "start": "node test.py"
   },
   "repository": {
