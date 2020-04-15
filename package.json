@@ -1,0 +1,10 @@
+{
+  "name": "testing_package",
+  "version": "1.0.0",
+  "description": "Testing...",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node main.js"
+  }
+}
