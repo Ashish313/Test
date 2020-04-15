@@ -6,7 +6,7 @@ node{
 			}
 	
 	stage('Build Image'){
-			app=docker.build('')
+			app=docker.build('ashish313/sample')
 			}
 
 	stage('Test Image'){
