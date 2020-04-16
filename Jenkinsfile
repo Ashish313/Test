@@ -5,17 +5,17 @@ node{
 			checkout scm
 			}
 	
-	stage('Build Image'){
+	stage('Build image'){
 			app=docker.build('ashish313/sample')
 			}
 
-	stage('Test Image'){
+	stage('Test image'){
 			app.inside{
 				sh 'echo "Tests passed"'
 				}
 			}
 
-	stage('Push Image'){
+	stage('Push image'){
 			docker.withRegistry('https://registry.hub.docker.com','docker.hub.credentials'){
 													app.push()
 													app.push('latest')
